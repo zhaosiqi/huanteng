@@ -1,0 +1,255 @@
+body,p,pre,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,tbody,tr,td
+
+{
+    margin:0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration:none;
+    color: none;
+    margin: none;
+}
+body{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    background: #0D0D0D;
+    color: #706f6f;
+    font-family: "宋体",Arial, Helvetica, sans-serif;
+}
+/*---头部--*/
+.header{
+    width: 1015px;
+    line-height: 36px;
+    color: #6b6b6b;
+    margin:0 auto;
+}
+.header span em {
+    color: #ff6e27;
+    font-size: 100%;
+}
+.header ul {
+    float: right;
+    width: 300px;
+    background: url(../img/head.png) no-repeat left center;
+    height: 36px;
+    font-size: 100%;
+}
+.header ul li{
+    float: left;
+    padding-left: 23px;
+    width: 71px;
+}
+.header a{
+    color: #6b6b6b;
+}
+/*-----导航----*/
+.nav {
+    width: 100%;
+    height: 103px;
+    overflow: hidden;
+    background: url(../img/nav.png) repeat-x;
+}
+.navbox{
+    width: 1015px;
+    margin: 0 auto;
+    height: 103px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 13px;
+    top: 26px;
+}
+.navbox ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navbox ul li{
+    width: 87px;
+    height: 100px;
+    float: left;
+}
+.navbox li a {
+    width: 87px;
+    height: 100px;
+    display: block;
+}
+.nav1{
+    background: url(../img/11.png) no-repeat;
+}
+.nav2{
+    background: url(../img/22.png) no-repeat;
+}
+.nav3{
+    background: url(../img/33.png) no-repeat;
+}
+.nav4{
+    background: url(../img/44.png) no-repeat;
+}
+.nav5{
+    background: url(../img/55.png) no-repeat;
+}
+.nav6{
+    background: url(../img/66.png) no-repeat;
+}
+.nav7{
+    background: url(../img/77.png) no-repeat;
+}
+.nav7 a:hover{
+    background: url(../img/7.jpg) no-repeat;
+}
+.nav6 a:hover{
+    background: url(../img/6.jpg) no-repeat;
+}
+.nav5 a:hover{
+    background: url(../img/5.jpg) no-repeat;
+}
+.nav4 a:hover{
+    background: url(../img/4.jpg) no-repeat;
+}
+.nav3 a:hover{
+    background: url(../img/3.jpg) no-repeat;
+}
+.nav2 a:hover{
+    background: url(../img/1.jpg) no-repeat;
+}
+.nav1 a:hover{
+    background: url(../img/2.jpg) no-repeat;
+}
+/*----banner----*/
+.banner{
+    height: 304px;
+    width: 100%;
+    background: url(../img/zy_ban.png) no-repeat center;
+    position: relative;
+}
+.bannerbox{
+    width: 1015px;
+    margin: 0 auto;
+    height: 304px;
+    background: url(../img/zy_banner.png) no-repeat center;
+}
+/*---联系我们---*/
+.js{
+    width: 1015px;
+    margin:12px auto 0;
+}
+.jsl{
+    width: 232px;
+    float: left;
+    background: url(../img/sub.png) no-repeat left top;
+    height: 527px;
+}
+.jsl ul{
+    padding-top: 85px;
+    padding-bottom: 30px;
+}
+.jsl ul li{
+    width: 232px;
+    height: 43px;
+    text-align: center;
+    line-height: 34px;
+    font-family: "微软雅黑";
+    background: url(../img/ub.png) no-repeat 0 34px;
+}
+.jsl ul li a{
+    width: 232px;
+    height: 43px;
+    display: block;
+    color: #8e8b8a;
+    font-size: 16px;
+}
+.jsl ul li a:hover{
+    background: url(../img/sub_hover.png) no-repeat;
+    color: #491304;
+    font-size: 16px;
+}
+.jsr{
+    position: relative;
+    width: 765px;
+    height: 1112px;
+    overflow: hidden;
+    float: right;
+    background: url(../img/right_bg.png);
+}
+.title{
+     height: 39px;
+    line-height: 39px;
+    background: url(../img/title.png) no-repeat;
+    margin-top: 12px;
+}
+.title span{
+    float: left;
+    padding-left: 19px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #f1f1f1;
+}
+.title span em{
+    font-size: 10px;
+    color: #7d7d7d;
+    padding-left: 5px;
+    float: none;
+    padding-right: 22px;
+    font-style: normal;
+}
+.title em{
+    float: right;
+    padding-right: 22px;
+    color: #dadada;
+    font-style: normal;
+
+}
+.title em a{
+    color: #f1f1f1;
+}
+.lxwm{
+    padding: 28px;
+    line-height: 24px;
+}
+/*---脚----*/
+.foot{
+    background: #0a0a0a;
+    border-top: 1px solid #262626;
+    padding: 10px 0;
+    clear: both;
+}
+.footn{
+    width: 1015px;
+    color: #5f5e5e;
+    line-height: 24px;
+    margin:0 auto;
+}
+.footn img{
+    float: left;
+}
+.footwz{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 593px;
+    height: 30px;
+    float: left;
+    color: #666666;
+}
+.b{
+    margin-top: -5px;
+}
+.footwz a{
+    color: #666666;
+}
+.sb{
+    margin-top: -35px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+
+
